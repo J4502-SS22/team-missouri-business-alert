@@ -1,0 +1,16 @@
+.header
+{
+  border-width: 6px 6px 6px 6px;
+  border-color: black;
+  border-style: solid;
+  margin: 30px 80px 40px 80px;
+  font-size: 48px;
+  text-align: center;
+  font-family: arial;
+  color: #5A2E0C;
+}
+
+.headertext
+{
+  margin: 10px;
+}
