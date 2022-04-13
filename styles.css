@@ -78,11 +78,23 @@ nav a {
       padding: unset;
     }
 
-.h1 {
+.h1-home {
   font-size: 48px;
   text-align: center;
   font-family: 'Patrick Hand SC', cursive;
   color: #5A2E0C;
+}
+
+.h2-home {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500px;
+  color: #5A2E0C;
+}
+
+.homepage-button {
+  
 }
 
 body {
