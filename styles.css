@@ -1,12 +1,6 @@
-.header
-{
-  border-width: 6px 6px 6px 6px;
-  border-color: black;
-  border-style: solid;
-  margin: 30px 80px 40px 80px;
-  font-size: 64px;
+.header {
+  font-size: 80px;
   text-align: center;
-  font-family: 'Lobster', cursive;
   font-family: 'Patrick Hand SC', cursive;
   color: #5A2E0C;
 }
@@ -16,10 +10,109 @@
   margin: 10px;
 }
 
+nav {
+  background: #5A2E0C;
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+nav ul {
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+nav li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  box-sizing: border-box;
+  text-align: center;
+  border-top: 5px solid #F7EDDE;
+  border-bottom: 5px solid #F7EDDE;
+  border-left: 5px solid #F7EDDE;
+  border-right: 5px solid #F7EDDE;
+}
+
+nav a {
+    color: #FFF;
+    font-family: 'Patrick Hand SC', cursive;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+    #content {
+      display: block;
+      width: 90%;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      border: 0;
+      font-size: 1.5rem;
+    }
+
+    .skip-link:focus {
+      width: unset;
+      height: unset;
+      position: relative;
+      margin: unset;
+      padding: unset;
+    }
+
 .h1 {
   font-size: 48px;
   text-align: center;
-  font-family: 'Lobster', cursive;
   font-family: 'Patrick Hand SC', cursive;
   color: #5A2E0C;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F7EDDE;
+}
+
+footer {
+  font-size: 20px;
+  background: #CFB1A0;
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+}
+
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 800px) {
+
 }
