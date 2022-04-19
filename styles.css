@@ -105,6 +105,45 @@ nav a {
   color: #5A2E0C;
 }
 
+.shop-local {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
+.coffee-cup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
+.homepage-row {
+  display: flex;
+}
+
+.homepage-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.home-map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
 .homepage-button {
   background-color: #9CB380;
   border: none;
@@ -119,15 +158,118 @@ nav a {
   margin-right: auto;
 }
 
+.hot-coffee-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Playfair Display', serif;
+  font-size: 18px;
   font-weight: 300;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #F7EDDE;
+}
+
+.h2-left {
+  text-align: left;
+}
+.h2-right {
+  text-align: right;
+}
+.h3-left {
+  text-align: left;
+}
+
+.acola {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      .acola-image {
+        flex-basis: 40%
+      }
+      .acola-text {
+        padding-right: 25px;
+      }
+
+.coffee-zone {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      .coffee-zone-image {
+        flex-basis: 70%
+      }
+      .coffee-zone-text {
+        padding-left: 25px;
+        text-align: right;
+      }
+.coffee-zone-info {
+  text-align: right;
+}
+
+.fretboard {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      .fretboard-image {
+        flex-basis: 40%
+      }
+      .fretboard-text {
+        padding-right: 25px;
+      }
+
+.lakota {
+      display: flex;
+      align-items: center;
+      justify-content: center
+      }
+      .lakota-image {
+        flex-basis: 70%
+      }
+      .lakota-text {
+        padding-left: 25px;
+        text-align: right;
+            }
+.lakota-info {
+    text-align: right;
+  }
+
+.shortwave {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      .shortwave-image {
+        flex-basis: 40%
+      }
+      .shortwave-text {
+        padding-right: 25px;
+      }
+
+.shops-button {
+  background-color: #9CB380;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: 'Patrick Hand SC', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
