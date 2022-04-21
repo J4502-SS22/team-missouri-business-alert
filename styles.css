@@ -316,10 +316,62 @@ width: 50%;
         justify-content: center;
         flex-wrap: wrap;
       }
+      .acola-image {
+        align-items: center;
+      }
       .acola-info {
         text-align: center;
       }
-
+      .coffee-zone {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+            }
+            .coffee-zone-image {
+              align-items: center;
+              flex-basis: auto;
+            }
+            .coffee-zone-info {
+              text-align: center;
+            }
+            .fretboard {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                  }
+                  .fretboard-image {
+                    align-items: center;
+                  }
+                  .fretboard-info {
+                    text-align: center;
+                  }
+                  .lakota {
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          flex-wrap: wrap;
+                        }
+                        .lakota-image {
+                          align-items: center;
+                          flex-basis: auto;
+                        }
+                        .lakota-info {
+                          text-align: center;
+                        }
+                      .shortwave {
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          flex-wrap: wrap;
+                              }
+                              .shortwave-image {
+                                align-items: center;
+                              }
+                              .shortwave-info {
+                                text-align: center;
+                              }
   }
 
 @media (max-width: 650px) {
@@ -349,13 +401,78 @@ nav li {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width:90%;
-        padding: 50px;
+        text-align:center;
       }
-.acola-info {
-  text-align: center;
-}
-
+      .acola-image {
+        align-items: center;
+      }
+      .acola-info {
+        text-align: center;
+      }
+      .coffee-zone {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+            }
+            .coffee-zone-image {
+              align-items: center;
+              flex-basis: auto;
+            }
+            .coffee-zone-info {
+              text-align: center;
+            }
+            .coffee-zone-text {
+              text-align: center;
+            }
+            .fretboard {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                  }
+                  .fretboard-image {
+                    align-items: center;
+                    flex-basis: auto;
+                  }
+                  .fretboard-info {
+                    text-align: center;
+                  }
+                  .fretboard-text {
+                    text-align: center;
+                  }
+                  .lakota {
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          flex-wrap: wrap;
+                        }
+                        .lakota-image {
+                          align-items: center;
+                          flex-basis: auto;
+                        }
+                        .lakota-info {
+                          text-align: center;
+                        }
+                        .lakota-text {
+                          text-align: center;
+                        }
+                        .shortwave{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                flex-wrap: wrap;
+                              }
+                              .shortwave-image {
+                                align-items: center;
+                                flex-basis: auto;
+                              }
+                              .shortwave-info {
+                                text-align: center;
+                              }
+                              .shortwave-text {
+                                text-align: center;
+                              }
 
 .shops-button {
   max-width: 350px;
