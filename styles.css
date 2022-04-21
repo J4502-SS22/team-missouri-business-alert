@@ -159,6 +159,7 @@ nav a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%; max-width: 350px
 }
 
 body {
@@ -186,10 +187,14 @@ body {
 .acola {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
       }
       .acola-image {
-        flex-basis: 40%
+        flex-basis: 40%;
+        border-top: 5px solid #9CB380;
+        border-bottom: 5px solid #9CB380;
+        border-left: 5px solid #9CB380;
+        border-right: 5px solid #9CB380;
       }
       .acola-text {
         padding-right: 25px;
@@ -198,10 +203,14 @@ body {
 .coffee-zone {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
       }
       .coffee-zone-image {
-        flex-basis: 70%
+        flex-basis: 70%;
+        border-top: 5px solid #9CB380;
+        border-bottom: 5px solid #9CB380;
+        border-left: 5px solid #9CB380;
+        border-right: 5px solid #9CB380;
       }
       .coffee-zone-text {
         padding-left: 25px;
@@ -214,10 +223,14 @@ body {
 .fretboard {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
       }
       .fretboard-image {
-        flex-basis: 40%
+        flex-basis: 40%;
+        border-top: 5px solid #9CB380;
+        border-bottom: 5px solid #9CB380;
+        border-left: 5px solid #9CB380;
+        border-right: 5px solid #9CB380;
       }
       .fretboard-text {
         padding-right: 25px;
@@ -226,10 +239,14 @@ body {
 .lakota {
       display: flex;
       align-items: center;
-      justify-content: center
+      justify-content: center;
       }
       .lakota-image {
-        flex-basis: 70%
+        flex-basis: 70%;
+        border-top: 5px solid #9CB380;
+        border-bottom: 5px solid #9CB380;
+        border-left: 5px solid #9CB380;
+        border-right: 5px solid #9CB380;
       }
       .lakota-text {
         padding-left: 25px;
@@ -242,10 +259,14 @@ body {
 .shortwave {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
       }
       .shortwave-image {
-        flex-basis: 40%
+        flex-basis: 40%;
+        border-top: 5px solid #9CB380;
+        border-bottom: 5px solid #9CB380;
+        border-left: 5px solid #9CB380;
+        border-right: 5px solid #9CB380;
       }
       .shortwave-text {
         padding-right: 25px;
@@ -263,6 +284,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width:100%; max-width: 500px;
 }
 
 footer {
@@ -288,7 +310,15 @@ width: 50%;
 .header {
   font-size: 60px;
 }
-
+.acola {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .acola-info {
+        text-align: center;
+      }
 
   }
 
@@ -305,6 +335,30 @@ nav li {
   .header {
   font-size: 45px;
 }
+.h2-left {
+  text-align: center;
+}
+.h2-right {
+  text-align: center;
+}
+.h3-left {
+  text-align: center;
+}
+.acola {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width:90%;
+        padding: 50px;
+      }
+.acola-info {
+  text-align: center;
+}
 
+
+.shops-button {
+  max-width: 350px;
+}
 
 }
