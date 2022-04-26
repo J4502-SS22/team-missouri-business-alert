@@ -310,6 +310,37 @@ body {
   border-right: 5px solid #9CB380;
 }
 
+.lakota-room {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
+.acola-patio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
+.fretboard-interior {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
+}
+
+
 footer {
   font-size: 20px;
   background: #CFB1A0;
@@ -401,6 +432,16 @@ width: 50%;
 .shortwave-interior {
   width: 100%;
 }
+.lakota-room {
+  width:100%
+}
+.acola-patio {
+  width:100%
+}
+.fretboard-interior {
+  width:100%
+}
+
   }
 
 @media (max-width: 650px) {
@@ -511,6 +552,15 @@ nav li {
 }
 .shortwave-interior {
   width: 100%;
+}
+.lakota-room {
+  width:100%
+}
+.acola-patio {
+  width:100%
+}
+.fretboard-interior {
+  width:100%
 }
 
 }
