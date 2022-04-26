@@ -176,12 +176,15 @@ body {
 
 .h2-left {
   text-align: left;
+  color: #5A2E0C;
 }
 .h2-right {
   text-align: right;
+  color: #5A2E0C;
 }
 .h3-left {
   text-align: left;
+  color: #5A2E0C;
 }
 
 .acola {
@@ -474,8 +477,8 @@ nav li {
                                 text-align: center;
                               }
 
-.shops-button {
-  max-width: 350px;
-}
+                              .shops-button {
+                                max-width: 350px;
+                              }
 
 }
