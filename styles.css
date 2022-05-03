@@ -4,10 +4,6 @@
   text-align: center;
   font-family: 'Patrick Hand SC', cursive;
   color: #5A2E0C;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
   background-color: white;
   display: block;
   margin-left: auto;
@@ -16,6 +12,10 @@
   margin-bottom: 20px;
   padding-left: 16px;
   padding-right: 16px;
+  border-top: 5px solid #9CB380;
+  border-bottom: 5px solid #9CB380;
+  border-left: 5px solid #9CB380;
+  border-right: 5px solid #9CB380;
 }
 
 .headertext
@@ -37,7 +37,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  height: 100%;
+
 }
 
 nav li {
@@ -48,10 +48,6 @@ nav li {
   font-size: 36px;
   box-sizing: border-box;
   text-align: center;
-  border-top: 5px solid #F7EDDE;
-  border-bottom: 5px solid #F7EDDE;
-  border-left: 5px solid #F7EDDE;
-  border-right: 5px solid #F7EDDE;
 }
 
 nav a {
@@ -63,6 +59,10 @@ nav a {
     height: 100%;
     display: block;
     box-sizing: border-box;
+    border-top: 5px solid #F7EDDE;
+    border-bottom: 5px solid #F7EDDE;
+    border-left: 5px solid #F7EDDE;
+    border-right: 5px solid #F7EDDE;
   }
 
     #content {
@@ -160,6 +160,13 @@ nav a {
   margin-left: auto;
   margin-right: auto;
   width: 100%; max-width: 350px
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
