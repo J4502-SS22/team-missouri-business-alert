@@ -90,6 +90,10 @@ nav a {
       padding: unset;
     }
 
+.sameSize{
+  height: 500px;
+}
+
 .h1 {
   font-size: 55px;
   text-align: center;
@@ -527,7 +531,7 @@ nav li {
     justify-content: center;
     text-align:right;
    }
-    
+
 =======
 
 >>>>>>> Stashed changes
