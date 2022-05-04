@@ -112,7 +112,7 @@ nav a {
   color: #5A2E0C;
 }
 .h4 {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-weight: 400px;
@@ -521,7 +521,7 @@ nav li {
 
  .imgContainer
    {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
