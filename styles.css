@@ -570,4 +570,11 @@ nav li {
   width:100%
 }
 
+.featured {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  
 }
