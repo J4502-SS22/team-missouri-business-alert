@@ -125,7 +125,7 @@ figure {
 }
 
 figcaption {
-  background-color: #9CB380;
+  background-color: #CFB1A0;
   align-items: center;
   color: black;
   text-align: center;
@@ -140,11 +140,11 @@ figcaption {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #000;
+  border: 5px solid #9CB380;
 }
 
 .button {
-  background-color: #CFB1A0;
+  background-color: #9CB380;
   border: none;
   color: black;
   text-align: center;
