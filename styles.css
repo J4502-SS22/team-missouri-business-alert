@@ -18,8 +18,7 @@
   border-right: 5px solid #9CB380;
 }
 
-.headertext
-{
+.headertext {
   margin: 10px;
 }
 
@@ -59,11 +58,11 @@ nav a {
     height: 100%;
     display: block;
     box-sizing: border-box;
-    border-top: 5px solid #F7EDDE;
-    border-bottom: 5px solid #F7EDDE;
-    border-left: 5px solid #F7EDDE;
-    border-right: 5px solid #F7EDDE;
   }
+
+.nav .active {
+  background-color: #9CB380;
+}
 
     #content {
       display: block;
@@ -110,30 +109,21 @@ nav a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
 }
 
-.coffee-cup {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
+figure {
+  width: auto;
+  max-width: 750px;
 }
 
-.homepage-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.homepage-column {
-  flex: 33.33%;
+figcaption {
+  background-color: #9CB380;
+  align-items: center;
+  color: black;
+  text-align: center;
+  font-size: 1rem;
   padding: 5px;
+  max-width: 750px;
 }
 
 .home-map {
@@ -141,10 +131,7 @@ nav a {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
+  border: 1px solid #000;
 }
 
 .homepage-button {
@@ -163,6 +150,13 @@ nav a {
 }
 
 .banner {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collage {
   display: block;
   width: 100%;
   margin-left: auto;
@@ -201,10 +195,6 @@ body {
       }
       .acola-image {
         flex-basis: 40%;
-        border-top: 5px solid #9CB380;
-        border-bottom: 5px solid #9CB380;
-        border-left: 5px solid #9CB380;
-        border-right: 5px solid #9CB380;
       }
       .acola-text {
         padding-right: 25px;
@@ -217,10 +207,6 @@ body {
       }
       .coffee-zone-image {
         flex-basis: 70%;
-        border-top: 5px solid #9CB380;
-        border-bottom: 5px solid #9CB380;
-        border-left: 5px solid #9CB380;
-        border-right: 5px solid #9CB380;
       }
       .coffee-zone-text {
         padding-left: 25px;
@@ -237,10 +223,6 @@ body {
       }
       .fretboard-image {
         flex-basis: 40%;
-        border-top: 5px solid #9CB380;
-        border-bottom: 5px solid #9CB380;
-        border-left: 5px solid #9CB380;
-        border-right: 5px solid #9CB380;
       }
       .fretboard-text {
         padding-right: 25px;
@@ -253,10 +235,6 @@ body {
       }
       .lakota-image {
         flex-basis: 70%;
-        border-top: 5px solid #9CB380;
-        border-bottom: 5px solid #9CB380;
-        border-left: 5px solid #9CB380;
-        border-right: 5px solid #9CB380;
       }
       .lakota-text {
         padding-left: 25px;
@@ -273,10 +251,6 @@ body {
       }
       .shortwave-image {
         flex-basis: 40%;
-        border-top: 5px solid #9CB380;
-        border-bottom: 5px solid #9CB380;
-        border-left: 5px solid #9CB380;
-        border-right: 5px solid #9CB380;
       }
       .shortwave-text {
         padding-right: 25px;
@@ -301,50 +275,30 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
 }
 
 .shortwave-interior {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
 }
 
 .lakota-room {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
 }
 
 .acola-patio {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
 }
 
 .fretboard-interior {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
-  border-left: 5px solid #9CB380;
-  border-right: 5px solid #9CB380;
 }
 
 
@@ -357,8 +311,6 @@ footer {
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
-  border-top: 5px solid #9CB380;
-  border-bottom: 5px solid #9CB380;
 }
 
 @media (max-width: 850px) {
