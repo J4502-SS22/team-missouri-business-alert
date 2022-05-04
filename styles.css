@@ -529,4 +529,12 @@ nav li {
     margin-bottom: 20px;
   }
   
+.featured-pic
+      {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  
 }
