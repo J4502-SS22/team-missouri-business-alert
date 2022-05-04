@@ -190,10 +190,13 @@ body {
         justify-content: center;
       }
       .acola-image {
-        flex-basis: 40%;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
-      .acola-text {
-        padding-right: 25px;
+      .acola-info {
+        text-align: center;
       }
 
 .coffee-zone {
@@ -202,14 +205,13 @@ body {
         justify-content: center;
       }
       .coffee-zone-image {
-        flex-basis: 70%;
-      }
-      .coffee-zone-text {
-        padding-left: 25px;
-        text-align: right;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
 .coffee-zone-info {
-  text-align: right;
+  text-align: center;
 }
 
 .fretboard {
@@ -218,27 +220,29 @@ body {
         justify-content: center;
       }
       .fretboard-image {
-        flex-basis: 40%;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
-      .fretboard-text {
-        padding-right: 25px;
+      .fretboard-info {
+        text-align: center;
       }
 
-.lakota {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      }
-      .lakota-image {
-        flex-basis: 70%;
-      }
-      .lakota-text {
-        padding-left: 25px;
-        text-align: right;
+      .lakota {
+              display: flex;
+              align-items: center;
+              justify-content: center;
             }
-.lakota-info {
-    text-align: right;
-  }
+            .lakota-image {
+              display: block;
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .lakota-info {
+              text-align: center;
+            }
 
 .shortwave {
         display: flex;
@@ -327,7 +331,6 @@ width: 50%;
             }
             .coffee-zone-image {
               align-items: center;
-              flex-basis: auto;
             }
             .coffee-zone-info {
               text-align: center;
@@ -352,7 +355,6 @@ width: 50%;
                         }
                         .lakota-image {
                           align-items: center;
-                          flex-basis: auto;
                         }
                         .lakota-info {
                           text-align: center;
@@ -478,9 +480,6 @@ nav li {
                                 text-align: center;
                               }
 
-                              .shops-button {
-                                max-width: 350px;
-                              }
 .cz-interior {
   width: 100%;
 }
@@ -504,7 +503,7 @@ nav li {
     margin-bottom: 20px;
   }
 <<<<<<< Updated upstream
-  
+
 .featured-pic
       {
     display: block;
@@ -512,7 +511,7 @@ nav li {
     margin-left: auto;
     margin-bottom: 20px;
   }
-  
+
 =======
 
 >>>>>>> Stashed changes
