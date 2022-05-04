@@ -104,6 +104,13 @@ nav a {
   font-weight: 500px;
   color: #5A2E0C;
 }
+.h3 {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500px;
+  color: #5A2E0C;
+}
 
 .shop-local {
   display: block;
@@ -114,6 +121,7 @@ nav a {
 figure {
   width: auto;
   max-width: 750px;
+  align-items: center;
 }
 
 figcaption {
@@ -124,6 +132,7 @@ figcaption {
   font-size: 1rem;
   padding: 5px;
   max-width: 750px;
+  width: auto;
 }
 
 .home-map {
@@ -134,8 +143,8 @@ figcaption {
   border: 1px solid #000;
 }
 
-.homepage-button {
-  background-color: #9CB380;
+.button {
+  background-color: #CFB1A0;
   border: none;
   color: black;
   text-align: center;
@@ -173,19 +182,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #F7EDDE;
-}
-
-.h2-left {
-  text-align: left;
-  color: #5A2E0C;
-}
-.h2-right {
-  text-align: right;
-  color: #5A2E0C;
-}
-.h3-left {
-  text-align: left;
-  color: #5A2E0C;
 }
 
 .acola {
@@ -250,26 +246,14 @@ body {
         justify-content: center;
       }
       .shortwave-image {
-        flex-basis: 40%;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
-      .shortwave-text {
-        padding-right: 25px;
+      .shortwave-info {
+        text-align: center;
       }
-
-.shops-button {
-  background-color: #9CB380;
-  border: none;
-  color: black;
-  text-align: center;
-  font-size: 24px;
-  border-radius: 8px;
-  padding: 16px;
-  font-family: 'Patrick Hand SC', cursive;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%; max-width: 500px;
-}
 
 .cz-interior {
   display: block;
@@ -416,15 +400,6 @@ nav li {
   .header {
   font-size: 45px;
 }
-.h2-left {
-  text-align: center;
-}
-.h2-right {
-  text-align: center;
-}
-.h3-left {
-  text-align: center;
-}
 .acola {
         display: flex;
         flex-wrap: wrap;
@@ -528,6 +503,7 @@ nav li {
     margin-left: auto;
     margin-bottom: 20px;
   }
+<<<<<<< Updated upstream
   
 .featured-pic
       {
@@ -537,4 +513,7 @@ nav li {
     margin-bottom: 20px;
   }
   
+=======
+
+>>>>>>> Stashed changes
 }
