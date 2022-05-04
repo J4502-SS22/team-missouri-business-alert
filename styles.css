@@ -515,10 +515,12 @@ nav li {
   .float-container1
   {
     align-items: left;
+    width: 70%;
   }
   .float-child1
   {
     align-items: right;
+    width: 40%;
   }
     
 =======
