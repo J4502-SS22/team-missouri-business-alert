@@ -512,16 +512,17 @@ nav li {
     margin-bottom: 20px;
   }
 
-  .float-container1
-  {
-    align-items: left;
-    width: 70%;
-  }
-  .float-child1
-  {
-    align-items: right;
-    width: 40%;
-  }
+ .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
     
 =======
 
