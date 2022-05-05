@@ -122,6 +122,14 @@ nav a {
   font-weight: 400px;
   color: #5A2E0C;
 }
+.h5 {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300px;
+  font-style: italic;
+  color: #5A2E0C;
+}
 
 .shop-local {
   display: block;
